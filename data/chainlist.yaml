@@ -7,13 +7,11 @@ ethereum:
   blockTime: 15000
   rpcURLs:
     - https://eth.rpc.blxrbdn.com
-    - https://ethereum.blockpi.network/v1/rpc/public
     - https://eth-pokt.nodies.app
     - https://rpc.payload.de
     - https://rpc.ankr.com/eth
     - https://core.gashawk.io/rpc
     - https://ethereum.rpc.subquery.network/public
-    - https://rpc.eth.gateway.fm
     - https://eth.meowrpc.com
     - https://mainnet.gateway.tenderly.co
     - https://gateway.tenderly.co/public/mainnet
@@ -27,7 +25,6 @@ ethereum:
     - https://ethereum-rpc.publicnode.com
     - https://api.securerpc.com/v1
     - https://eth.merkle.io
-    - https://eth.drpc.org
 bnb:
   id: 56
   blockTime: 3000
@@ -36,15 +33,12 @@ bnb:
     decimals: 18
   maxTransactionWaitTime: 5000
   rpcURLs:
-    - https://bsc.blockpi.network/v1/rpc/public
     - https://bsc-pokt.nodies.app
     - https://bsc.rpc.blxrbdn.com
     - https://bnb.rpc.subquery.network/public
     - https://bnb.api.onfinality.io/public
-    - https://koge-rpc-bsc.48.club
     - https://rpc-bsc.48.club
     - https://bsc.meowrpc.com
-    - https://bsc.drpc.org
     - https://bsc-mainnet.public.blastapi.io
     - https://bsc-rpc.publicnode.com
     - https://bscrpc.com
@@ -73,7 +67,6 @@ tron:
   blockTime: 3000
   rpcURLs:
     - https://api.trongrid.io/jsonrpc
-    - https://rpc.ankr.com/tron_jsonrpc
 zkSync:
   id: 324
   nativeCoin:
@@ -84,11 +77,7 @@ zkSync:
   rpcURLs:
     - https://1rpc.io/zksync2-era
     - https://mainnet.era.zksync.io
-    - https://zksync.drpc.org
-    - https://zksync-era.blockpi.network/v1/rpc/public
-    - https://go.getblock.io/f76c09905def4618a34946bf71851542
     - https://zksync.meowrpc.com
-    - https://endpoints.omniatech.io/v1/zksync-era/mainnet/pub
 polygon:
   id: 137
   nativeCoin:
@@ -97,10 +86,8 @@ polygon:
   maxTransactionWaitTime: 5000
   blockTime: 2000
   rpcURLs:
-    - https://polygon.rpc.blxrbdn.com
     - https://rpc.ankr.com/polygon
     - https://polygon-rpc.com
-    - https://polygon.blockpi.network/v1/rpc/public
     - https://polygon-mainnet.public.blastapi.io
     - https://polygon-bor-rpc.publicnode.com
     - https://polygon.drpc.org
@@ -110,7 +97,6 @@ polygon:
     - https://rpc-mainnet.matic.quiknode.pro
     - https://polygon.rpc.subquery.network/public
     - https://polygon.api.onfinality.io/public
-    - https://polygon-mainnet.4everland.org/v1/37fa9972c1b1cd5fab542c7bdd4cde2f
     - https://gateway.tenderly.co/public/polygon
     - https://polygon.gateway.tenderly.co
 base:
@@ -120,7 +106,6 @@ base:
     decimals: 18
   maxTransactionWaitTime: 5000
   rpcURLs:
-    - https://base.blockpi.network/v1/rpc/public
     - https://base-rpc.publicnode.com
     - https://developer-access-mainnet.base.org
     - https://mainnet.base.org
@@ -134,8 +119,6 @@ base:
     - https://base.drpc.org
     - https://base-pokt.nodies.app
     - https://endpoints.omniatech.io/v1/base/mainnet/public
-    - https://rpc.notadegen.com/base
-    - https://base-mainnet.diamondswap.org/rpc
 linea:
   id: 59144
   nativeCoin:
@@ -144,7 +127,6 @@ linea:
   maxTransactionWaitTime: 5000
   rpcURLs:
     - https://1rpc.io/linea
-    - https://linea.blockpi.network/v1/rpc/public
     - https://rpc.linea.build
     - https://linea.drpc.org
 arbitrumNova:
@@ -157,7 +139,6 @@ arbitrumNova:
     - https://arbitrum-nova.public.blastapi.io
     - https://arbitrum-nova-rpc.publicnode.com
     - https://arbitrum-nova.publicnode.com
-    - https://arbitrum-nova.blockpi.network/v1/rpc/public
     - https://arbitrum-nova.drpc.org
     - https://nova.arbitrum.io/rpc
 mantle:
@@ -168,10 +149,8 @@ mantle:
   maxTransactionWaitTime: 5000
   rpcURLs:
     - https://rpc.mantle.xyz
-    - https://rpc.ankr.com/mantle
     - https://mantle.drpc.org
     - https://mantle-mainnet.public.blastapi.io
-    - https://mantle-rpc.publicnode.com
     - https://1rpc.io/mantle
     - https://mantle.api.onfinality.io/public
 arbitrumOne:
@@ -182,11 +161,9 @@ arbitrumOne:
   maxTransactionWaitTime: 5000
   rpcURLs:
     - https://endpoints.omniatech.io/v1/arbitrum/one/public
-    - https://arb-mainnet-public.unifra.io
     - https://arbitrum-one.publicnode.com
     - https://arbitrum.meowrpc.com
     - https://arbitrum-one-rpc.publicnode.com
-    - https://arbitrum.blockpi.network/v1/rpc/public
     - https://arbitrum-one.public.blastapi.io
     - https://arb-pokt.nodies.app
     - https://1rpc.io/arb
@@ -202,7 +179,6 @@ optimism:
   maxTransactionWaitTime: 5000
   rpcURLs:
     - https://optimism.api.onfinality.io/public
-    - https://optimism.blockpi.network/v1/rpc/public
     - https://op-pokt.nodies.app
     - https://1rpc.io/op
     - https://optimism.rpc.subquery.network/public
@@ -215,7 +191,6 @@ optimism:
     - https://rpc.ankr.com/optimism
     - https://optimism.gateway.tenderly.co
     - https://gateway.tenderly.co/public/optimism
-    - https://opt-mainnet.4everland.org/v1/37fa9972c1b1cd5fab542c7bdd4cde2f
 bitTorrent:
   id: 199
   nativeCoin:
@@ -225,7 +200,6 @@ bitTorrent:
   rpcURLs:
     - https://rpc.bt.io
     - https://rpc.bittorrentchain.io
-    - https://bittorrent.drpc.org
 celo:
   id: 42220
   nativeCoin:
@@ -252,8 +226,6 @@ fantom:
     - https://fantom-mainnet.public.blastapi.io
     - https://fantom.drpc.org
     - https://fantom-pokt.nodies.app
-    - https://fantom.blockpi.network/v1/rpc/public
-    - https://rpc.ankr.com/fantom
     - https://rpc.ftm.tools
     - https://endpoints.omniatech.io/v1/fantom/mainnet/public
     - https://fantom-rpc.publicnode.com
@@ -273,14 +245,10 @@ gnosis:
     - https://rpc.gnosis.gateway.fm
     - https://rpc.gnosischain.com
     - https://gnosis.drpc.org
-    - https://gnosis-rpc.publicnode.com
-    - https://gnosis.blockpi.network/v1/rpc/public
     - https://gnosis.oat.farm
     - https://gnosis-pokt.nodies.app
     - https://endpoints.omniatech.io/v1/gnosis/mainnet/public
-    - https://gnosischain-rpc.gateway.pokt.network
     - https://gnosis.api.onfinality.io/public
-    - https://xdai-archive.blockscout.com
 polygonZkEVM:
   id: 1101
   nativeCoin:
@@ -289,11 +257,9 @@ polygonZkEVM:
   maxTransactionWaitTime: 5000
   rpcURLs:
     - https://polygon-zkevm-mainnet.public.blastapi.io
-    - https://polygon-zkevm.drpc.org
     - https://endpoints.omniatech.io/v1/polygon-zkevm/mainnet/public
     - https://zkevm-rpc.com
     - https://rpc.ankr.com/polygon_zkevm
-    - https://polygon-zkevm.blockpi.network/v1/rpc/public
     - https://1rpc.io/polygon/zkevm
     - https://rpc.polygon-zkevm.gateway.fm
 kroma:
@@ -318,7 +284,6 @@ moonbeam:
     - https://rpc.ankr.com/moonbeam
     - https://rpc.api.moonbeam.network
     - https://1rpc.io/glmr
-    - https://moonbeam.drpc.org
     - https://moonbeam.public.blastapi.io
     - https://moonbeam-rpc.publicnode.com
     - https://moonbeam.api.onfinality.io/public
@@ -351,15 +316,11 @@ scroll:
   rpcURLs:
     - https://scroll-mainnet.public.blastapi.io
     - https://scroll.drpc.org
-    - https://scroll.blockpi.network/v1/rpc/public
-    - https://scroll-mainnet-public.unifra.io
     - https://1rpc.io/scroll
     - https://rpc.ankr.com/scroll
     - https://rpc.scroll.io
     - https://scroll-mainnet.chainstacklabs.com
     - https://scroll.api.onfinality.io/public
-    - https://scroll-mainnet.rpc.grove.city/v1/a7a7c8e2
-    - https://rpc-scroll.icecreamswap.com
 wemix:
   id: 1111
   nativeCoin:
@@ -383,7 +344,6 @@ avalanche:
     - https://ava-mainnet.public.blastapi.io/ext/bc/C/rpc
     - https://avax-pokt.nodies.app/ext/bc/C/rpc
     - https://api.avax.network/ext/bc/C/rpc
-    - https://avalanche.blockpi.network/v1/rpc/public
     - https://avax.meowrpc.com
     - https://endpoints.omniatech.io/v1/avax/mainnet/public
     - https://avalanche-c-chain-rpc.publicnode.com
@@ -396,11 +356,9 @@ opBNB:
   maxTransactionWaitTime: 5000
   rpcURLs:
     - https://opbnb-mainnet-rpc.bnbchain.org
-    - https://opbnb-rpc.publicnode.com
     - https://1rpc.io/opbnb
     - https://opbnb-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3
     - https://opbnb-mainnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5
-    - https://opbnb-mainnet.4everland.org/v1/37fa9972c1b1cd5fab542c7bdd4cde2f
     - https://opbnb.drpc.org
 fraxtal:
   id: 252
@@ -419,15 +377,11 @@ blast:
   maxTransactionWaitTime: 5000
   rpcURLs:
     - https://rpc.blast.io
-    - https://blast.blockpi.network/v1/rpc/public
-    - https://blast.blockpi.network/v1/rpc/public
     - https://blast.drpc.org
     - https://blast-rpc.publicnode.com
     - https://blastl2-mainnet.public.blastapi.io
     - https://blast.din.dev/rpc
-    - https://rpc.envelop.is/blast
     - https://rpc.ankr.com/blast
-    - https://blast.gasswap.org
 cronos:
   id: 25
   nativeCoin:
@@ -435,15 +389,11 @@ cronos:
     decimals: 18
   maxTransactionWaitTime: 5000
   rpcURLs:
-    - https://mmf-rpc.xstaking.sg
-    - https://rpc.nebkas.ro
-    - https://cronos.blockpi.network/v1/rpc/public
     - https://cronos-evm-rpc.publicnode.com
     - https://rpc.vvs.finance
     - https://1rpc.io/cro
     - https://evm.cronos.org
     - https://cronos.drpc.org
-    - https://cronos-rpc.elk.finance
 taiko:
   id: 167000
   nativeCoin:
@@ -451,11 +401,9 @@ taiko:
     decimals: 18
   maxTransactionWaitTime: 5000
   rpcURLs:
-    - https://taiko.blockpi.network/v1/rpc/public
     - https://taiko.drpc.org
     - https://rpc.ankr.com/taiko
     - https://rpc.mainnet.taiko.xyz
-    - https://taiko-mainnet.4everland.org/v1/37fa9972c1b1cd5fab542c7bdd4cde2f
     - https://rpc.taiko.xyz
     - https://rpc.taiko.tools
 xai:
